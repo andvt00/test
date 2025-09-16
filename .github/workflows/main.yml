@@ -5,7 +5,7 @@ on:
 
 jobs:
   print-job:
-    runs-on: self-hosted
+    runs-on: [self-hosted, linux, x64]
     steps:
       - name: Print something
         run: echo "main"
