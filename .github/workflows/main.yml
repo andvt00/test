@@ -1,0 +1,11 @@
+name: Test
+
+on:
+  workflow_dispatch:
+
+jobs:
+  print-job:
+    runs-on: self-hosted
+    steps:
+      - name: Print something
+        run: echo "main"
